@@ -1,3 +1,5 @@
+/**GENERAL STYLES**/
+
 *{
   margin: 0;
   padding: 0;
@@ -33,6 +35,13 @@ body{
 .larghezza-50 {
   width: 50%;
 }
+
+/**FINE AREA LAYOUT**/
+
+/*TIPOGRAPHY*/
+.text-center {
+  text-align: center;
+}
 /*AREA MENU*/
 
 /*DISPLAY INLINE BLOCK - CONSENTE DI INSERIRE UN'ALTEZZA ED UNA LARGHEZZA ALL'ELEMENTO. NON AGGIUNGE UN LINEBREAK DOPO L'ELEMENTO, DI MODO CHE ESSO POSSA AFFIANCARSI AD ALTRI ELEMENTI
@@ -51,6 +60,7 @@ body{
 .menu-inline li:last-child {
     padding-right: 0;
 }
+/**FINE AREA MENU**/
 
 /*HEADER MAIN*/
 .header-main{
@@ -99,6 +109,8 @@ body{
     text-align: right;
 }
 
+/**FINE HEADER MAIN**/
+
 /*AREA BUTTONS*/
 
 .button{
@@ -119,7 +131,7 @@ body{
   margin-left: 350px;
   margin-top: 20px;
 }
-
+/**FINE AREA BUTTONS**/
 /*JUMBOTRON*/
 .container-jumbotron{
   position: relative;
@@ -142,4 +154,19 @@ body{
     padding-left: 350px;
     padding-bottom: 30px;
     margin-top: 300px;
+}
+/**FINE JUMBOTRON**/
+
+/*MAIN AREA*/
+.efficency {
+  background-color: #d3d3d3;
+  padding: 40px 15px;
+}
+
+.efficency h2{
+color: black;
+padding-bottom: 10px;
+}
+.efficency {
+font-size: 20px;
 }
