@@ -195,6 +195,17 @@ font-size: 20px;
     margin-bottom: 20px;
 }
 
+/**SELETTORE ::AFTER Il selettore ::AFTER inserisce qualcosa dopo il contenuto dell'elemento o elementi selezionato/i.Si usa la proprietà del contenuto per specificare il contenuto da inserire.
+Si una il selettore ::BEFORE per inserire qualcosa prima del contenuto.*/
+
+.informazioni h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    margin: 25px auto;
+    background: gray;
+}
 .informazioni h3 {
     font-size: 28px;
     color: #7cbb02;
