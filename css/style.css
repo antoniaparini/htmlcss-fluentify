@@ -29,3 +29,31 @@ body{
 .float-left{
   float: left;
 }
+
+/*AREA MENU*/
+/*DISPLAY INLINE BLOCK - CONSENTE DI INSERIRE UN'ALTEZZA ED UNA LARGHEZZA ALL'ELEMENTO. NON AGGIUNGE UN LINEBREAK DOPO L'ELEMENTO, DI MODO CHE ESSO POSSA AFFIANCARSI AD ALTRI ELEMENTI
+
+*FIRST-CHILD SELECTOR - E' UTILIZZATO PER SELEZIONARE SPECIFICATAMENTE QUEL SELETTORE SOLO SE E' IL FIRST CHILD DI QUEL PARENT
+
+*LAST-CHILD SELECTOR - E' UTILIZZATO PER SELEZIONARE SPECIFICATAMENTE QUEL SELETTORE SOLO SE E' IL LAST CHILD DI QUEL PARENT*/
+
+.menu-inline li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu-inline li:first-child {
+    padding-left: 0;
+}
+.menu-inline li:last-child {
+    padding-right: 0;
+}
+
+/*HEADER MAIN*/
+.header-main{
+  background-color: #0c325a;
+}
+.header-navigazione {
+  height:80px;
+}
+
+/
