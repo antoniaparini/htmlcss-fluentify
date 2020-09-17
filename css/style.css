@@ -52,6 +52,14 @@ body{
 /*HEADER MAIN*/
 .header-main{
   background-color: #0c325a;
+  height: 965px;
+  background-image: url(../img/background-header.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 1100px;
+}
+.container-top-page{
+  background-image: url(./img/background-header.png);
 }
 .header-navigazione {
   height:80px;
