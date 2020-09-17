@@ -170,3 +170,32 @@ padding-bottom: 10px;
 .efficency {
 font-size: 20px;
 }
+
+/*CALC* -> 	LA FUNZIONE CALC EFFETTUA UN CALCOLO IL CUI RISULTATO CHE VERRA' UTILIZZATO COME 'PROPRIETA-VALORE'.Possono essere utilizzati i seguenti operatori: + - */
+
+.three-columns{
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 20px;
+}
+
+.informazioni .clear::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.informazioni {
+    padding: 40px 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.informazioni img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.informazioni h3 {
+    font-size: 28px;
+    color: #7cbb02;
+}
