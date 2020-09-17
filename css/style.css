@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  font-size: 16px;
+}
+
+/*LE MIE UTILITIES - IN QUEST'AREA CREO CODICE CSS RIUTILIZZABILE PER DIFFERENTI SEZIONI ED ELEMENTI CHE NELLA PAGINA HTML SI RIPETERANNO*/
