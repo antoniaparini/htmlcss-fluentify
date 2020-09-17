@@ -30,6 +30,9 @@ body{
   float: left;
 }
 
+.larghezza-50 {
+  width: 50%;
+}
 /*AREA MENU*/
 
 /*DISPLAY INLINE BLOCK - CONSENTE DI INSERIRE UN'ALTEZZA ED UNA LARGHEZZA ALL'ELEMENTO. NON AGGIUNGE UN LINEBREAK DOPO L'ELEMENTO, DI MODO CHE ESSO POSSA AFFIANCARSI AD ALTRI ELEMENTI
@@ -56,7 +59,7 @@ body{
   background-image: url(../img/background-header.png);
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 1100px;
+  background-size: 1400px;
 }
 .container-top-page{
   background-image: url(./img/background-header.png);
@@ -108,4 +111,35 @@ body{
 .button-green{
   border:none;
   background-color: #7cbb02;
+}
+.button-large{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+/*JUMBOTRON*/
+.container-jumbotron{
+  position: relative;
+  height: 500px;
+}
+.larghezza-50{
+  width: 50%;
+}
+.jumbotron-main-claim{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.jumbotron-main-claim h1{
+    margin-bottom: 30px;
+    font-size: 56px;
+    color: #fff;
+    padding-left: 350px;
+    padding-bottom: 30px;
+    margin-top: 300px;
 }
