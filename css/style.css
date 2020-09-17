@@ -31,6 +31,7 @@ body{
 }
 
 /*AREA MENU*/
+
 /*DISPLAY INLINE BLOCK - CONSENTE DI INSERIRE UN'ALTEZZA ED UNA LARGHEZZA ALL'ELEMENTO. NON AGGIUNGE UN LINEBREAK DOPO L'ELEMENTO, DI MODO CHE ESSO POSSA AFFIANCARSI AD ALTRI ELEMENTI
 
 *FIRST-CHILD SELECTOR - E' UTILIZZATO PER SELEZIONARE SPECIFICATAMENTE QUEL SELETTORE SOLO SE E' IL FIRST CHILD DI QUEL PARENT
@@ -56,4 +57,47 @@ body{
   height:80px;
 }
 
-/
+.header-navigazione {
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.header-navigazione .header-area-logo img {
+    vertical-align: middle;
+}
+
+.header-navigazione li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-navigazione .header-area-logo {
+    width: 15%;
+}
+
+.header-navigazione .navigazione-centrale {
+    width: 45%;
+}
+
+.header-navigazione .navigazione-destra {
+    width: 40%;
+}
+
+.header-navigazione .navigazione-destra {
+    text-align: right;
+}
+
+/*AREA BUTTONS*/
+
+.button{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  min-width: 100%;
+}
+
+.button-green{
+  border:none;
+  background-color: #7cbb02;
+}
