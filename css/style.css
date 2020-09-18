@@ -42,6 +42,15 @@ body{
 .text-center {
   text-align: center;
 }
+
+.colonna{
+
+}
+
+h2.bigger {
+    line-height: 1.2;
+    font-size: 36px;
+}
 /*AREA MENU*/
 
 /*DISPLAY INLINE BLOCK - CONSENTE DI INSERIRE UN'ALTEZZA ED UNA LARGHEZZA ALL'ELEMENTO. NON AGGIUNGE UN LINEBREAK DOPO L'ELEMENTO, DI MODO CHE ESSO POSSA AFFIANCARSI AD ALTRI ELEMENTI
@@ -171,7 +180,7 @@ padding-bottom: 10px;
 font-size: 20px;
 }
 
-/*CALC* -> 	LA FUNZIONE CALC EFFETTUA UN CALCOLO IL CUI RISULTATO CHE VERRA' UTILIZZATO COME 'PROPRIETA-VALORE'.Possono essere utilizzati i seguenti operatori: + - */
+/*CALC* -> 	LA FUNZIONE CALC EFFETTUA UN CALCOLO IL CUI RISULTATO VERRA' UTILIZZATO COME 'PROPRIETA-VALORE'.Possono essere utilizzati i seguenti operatori: + - */
 
 .three-columns{
     float: left;
@@ -179,6 +188,9 @@ font-size: 20px;
     padding: 0 20px;
 }
 
+.three-columns h3{
+  font-weight: 400;
+}
 .informazioni .clear::after {
     content: '';
     display: table;
@@ -193,6 +205,9 @@ font-size: 20px;
 .informazioni img {
     height: 150px;
     margin-bottom: 20px;
+}
+.informazioni{
+  height:600px;
 }
 
 /**SELETTORE ::AFTER Il selettore ::AFTER inserisce qualcosa dopo il contenuto dell'elemento o elementi selezionato/i.Si usa la proprietà del contenuto per specificare il contenuto da inserire.
@@ -209,4 +224,27 @@ Si una il selettore ::BEFORE per inserire qualcosa prima del contenuto.*/
 .informazioni h3 {
     font-size: 28px;
     color: #7cbb02;
+
 }
+/**FINE AREA INFO**/
+
+/*AREA PIANIFICAZIONE*/
+.container-pianificazione .pianificazione-col-left {
+    padding: 50px;
+    padding-top: 450px;
+}
+.container-pianificazione img{
+  height: 540px;
+  width: 480px;
+  margin-top: -230px;
+}
+.pianificazione-col-left .bigger{
+  margin-top: -180px;
+  margin-bottom: 20px;
+  color: black
+}
+.pianificazione-col-left p {
+    margin-bottom: 20px;
+}
+
+/*FINE AREA PIANIFICAZIONE*/
