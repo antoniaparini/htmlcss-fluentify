@@ -241,10 +241,47 @@ Si una il selettore ::BEFORE per inserire qualcosa prima del contenuto.*/
 .pianificazione-col-left .bigger{
   margin-top: -180px;
   margin-bottom: 20px;
-  color: black
+  color: black;
+  font-weight: 400;
 }
 .pianificazione-col-left p {
     margin-bottom: 20px;
 }
 
 /*FINE AREA PIANIFICAZIONE*/
+
+/*FOOTER - STRUTTURA PIANO*/
+.footer{
+background-color: #d3d3d3;
+margin-bottom: 0;
+}
+.struttura-piano{
+padding: 40px;
+
+}
+
+.struttura-piano h2{
+color: black;
+padding-bottom: 10px;
+}
+.struttura-piano p{
+font-size: 20px;
+}
+
+/*HELP*/
+
+.help-button {
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+}
+
+.help-button a {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    background: #7cbb02;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px 5px 0 0;
+}
